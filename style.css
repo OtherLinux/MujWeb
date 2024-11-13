@@ -33,8 +33,8 @@ main {
     background-image: url('smudge-the-viral-cat.png');
     background-size: cover;
     border-radius: 10px;
-    border: 0 solid black;
-    margin: 20px;
+    border: 5px solid yellow;
+    margin: 15px;
     transition: all 1s ease-in-out;
 }
 
@@ -43,6 +43,7 @@ main {
     border: 20px solid black;
     margin: 0;
 }
+
 
 article {
     display: flex;
@@ -66,11 +67,26 @@ article {
     position: relative;
     width: 100%;
     height: 100%;
+    color: rgb(255 255 255 / 100);
+    border-radius: 10px;
     transition: all 1s ease-in-out;
 }
 
 .profile-text:hover {
     opacity: 1;
+}
+
+
+article {
+    position: relative;
+    color: rgb(255 255 255 / 100);
+    transition: all 9999999999999999999999s ease-in-out;
+
+}
+
+article:hover {
+    color: rgb(255 255 255 / 0);
+    transition-delay: -9999999999999999999999s;
 }
 
 #profile h3 {
@@ -89,7 +105,7 @@ article {
 
 p {
     margin-top: -30vh;
-    color: white;
+    color: inherit;
     opacity: 1;
     font-size: min(4vh, 4vw);
 }
