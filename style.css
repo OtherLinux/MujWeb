@@ -34,14 +34,14 @@ main {
     background-size: cover;
     border-radius: 10px;
     border: 5px solid yellow;
-    margin: 15px;
+    margin: 30px;
     transition: all 1s ease-in-out;
 }
 
 #profile:hover {
     border-radius: 50% 7%;
     border: 20px solid black;
-    margin: 0;
+    margin: 15px;
 }
 
 
@@ -77,14 +77,14 @@ article {
 }
 
 
-article {
+#about-me {
     position: relative;
     color: rgb(255 255 255 / 100);
     transition: all 9999999999999999999999s ease-in-out;
 
 }
 
-article:hover {
+#about-me:hover {
     color: rgb(255 255 255 / 0);
     transition-delay: -9999999999999999999999s;
 }
@@ -103,9 +103,38 @@ article:hover {
     font-size: min(3vh, 3vw);
 }
 
-p {
+
+summary {
+    transition: all 9999999999999999999999s;
+}
+
+summary:active{
+    color: rgb(255 255 255 / 0);
+    transition-delay: -9999999999999999999999s;
+}
+
+#Hover {
     margin-top: -30vh;
     color: inherit;
     opacity: 1;
     font-size: min(4vh, 4vw);
+}
+
+
+.emphasis {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
+
+li {
+    font-size: min(3vh, 3vw);
+    transition: all 1s;
+}
+
+li:hover {
+    font-size: min(6vh, 4vw);
 }

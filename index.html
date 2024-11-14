@@ -17,17 +17,30 @@
 
 <main>
     <section>
-        <article>
+        <article id="about-me">
             <div id="profile">
                 <div class="profile-text" title="Moje profilovka">
-                    <h3>O mne</h3>
-                    <p>Jmenuji se marek a jsem student ze Zlina</p>
-                    <p>Moje nejoblíbenější ovoce je citron</p>
+
+                    <details>
+                        <summary style="list-style: none" ><h3>O mne</h3> (Rozklikni si mne)</summary>
+                        <p>Jmenuji se marek a jsem student ze Zlina</p>
+                        <p>Moje nejoblíbenější ovoce je citron</p>
+                    </details>
                 </div>
             </div>
-            <p>Hover over me</p>
+            <p id="Hover">Hover over me</p>
+        </article>
+        <article style="margin-top: 30vh; display: flex; justify-content: center; align-items: center;">
+            <h3>Zájmy</h3>
+            <ul>
+                <li class="emphasis" style="color: saddlebrown">Psi</li>
+                <li class="emphasis" style="color: green">Počítače</li>
+                <li class="emphasis" style="color: darkred">Krimi</li>
+                <li class="strike-through" style="color: cadetblue">Sport</li>
+            </ul>
         </article>
     </section>
+
 
 </main>
 </body>
